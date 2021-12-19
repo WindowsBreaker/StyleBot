@@ -21,10 +21,10 @@ module.exports = {
 	.setDescription("footer of the embed")
 	.setRequired(true)),
   async execute(interaction) {
-      const embed = new MessageEmbed()
+    const embed = new MessageEmbed()
         .setTitle(interaction.options.getString('title'))
-    .setDescription(interaction.options.getString('description'))
-    .setFooter(interaction.options.getString('footer'))
-  interaction.reply({embeds: [embed]});
+        .setDescription(interaction.options.getString('description'))
+        .setFooter(interaction.options.getString('footer'))
+    interaction.reply({embeds: [embed]});
   },
 };

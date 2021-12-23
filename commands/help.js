@@ -9,7 +9,7 @@ module.exports = {
     await interaction.reply({embeds: [
       new MessageEmbed()
         .setTitle(`<:styleSuccess:920305910335823882> Help Panel - ${interaction.client.user.tag}`)
-        .setDescription("all commands have their description, under `/` name.\n\n**Command List**\n`ping, embed, markdown, spoiler, italic, bold, code`\n**Infos**\n**Developer:** Lua.#2672\n**Add Me:** [click](https://discord.com/oauth2/authorize?client_id=882713749620932669&scope=applications.commands%20bot&permissions=2147552256)")
+        .setDescription("all commands have their description, under `/` name.\n\n**Command List**\n`ping, embed, markdown, spoiler, italic, bold, code`\n**Infos**\n**Developer:** Lua. ツ#0001\n**Add Me:** [click](https://discord.com/oauth2/authorize?client_id=882713749620932669&scope=applications.commands%20bot&permissions=2147552256)")
         .setImage("https://media.discordapp.net/attachments/895326911545372682/920715002057457744/standard.gif")
         .setColor("#3da777")
       ],
